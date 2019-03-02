@@ -1,0 +1,127 @@
+h1{
+	font-family: oswald;
+	color: black;
+}
+
+h2{
+	font-weight: lighter;
+	font-family: oswald;
+	color: black;
+	font-size: 18px;
+}
+
+h3{
+	font-size: 30;
+	font-family: oswald;
+}
+
+body{
+	text-decoration: none;
+	text-align: center;
+	line-height: 5px;
+	background-color: white;
+}
+
+nav{
+	float: right;
+	background-color: transparent;
+	color: black;
+}
+#topbar{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 15px;
+}
+
+.btn-outline-dark{
+	margin-right: 20px;
+}
+
+.avatar{
+	border-radius: 50%;
+	object-fit: cover;
+	width: 120px;
+	height: 120px;
+}
+
+#banner{
+	background-image: url("images/beach.mp4");
+	background-size: cover;
+	padding: 200px;
+	color: white;
+}
+
+img{
+	border-radius: 10px;
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+.yogapicture{
+	height: 200px;
+	object-fit: cover;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+
+.btn{
+	margin-top: 20px;
+}
+
+.section{
+	padding: 100px 10px
+	background-color: white;
+	margin-bottom: 40px;
+}
+
+.section h2{
+	font-size: 20px;
+	text-align: center;
+}
+
+.card{
+	border: 2px solid black;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+#footer i{
+	font-size: 20px;
+	color: white;
+}
+
+#footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	color: white;
+	padding: 30px;
+	font-size: 10px;
+	margin-top: 40px;
+}
+
+.paragrahfooter{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 15px;
+}
+
+.modal-body{
+	color: black;
+	font-size: 18px;
+}
+
+.modal-title{
+	color: black;
+	font-size: 20px;
+}
+
+.form-inline{
+	display: flex;
+	justify-content: center;
+}
+
